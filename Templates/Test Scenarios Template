@@ -1,0 +1,26 @@
+# Test Scenarios - Login functionality
+
+| Scenario Type  | Test Case Description |
+|----------------|-----------------------|
+| **Valid Scenarios** | |
+| | Validate login with correct username and password |
+| | Validate login using Enter key after filling fields |
+| | Validate login with trimmed spaces before/after credentials |
+| | Validate login with mixed-case username and password |
+| | Validate login after modal is reopened (session reset) |
+| | Validate modal closes when clicking the "Close" button |
+| | Validate password field hides characters (masked input) |
+| | Validate login fields accept alphanumeric input |
+| | Validate login form accessibility (tab navigation) |
+| | Validate login UI renders correctly on mobile devices |
+| **Invalid Scenarios** | |
+| | Validate login with empty username and password |
+| | Validate login with only username filled |
+| | Validate login with only password filled |
+| | Validate login with incorrect username or password |
+| | Validate login with script injection attempt in username/password |
+| | Validate login with special characters in fields (e.g., <>[]%) |
+| | Validate login with extremely long strings in input fields |
+| | Validate login using space-only input |
+| | Validate login attempt without internet (if web app) |
+| | Validate login after multiple failed attempts (rate-limiting or lockout) |
